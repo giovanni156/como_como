@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "strict": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["resources/js/*"],
+        },
+        "lib": [
+            "ES5", "ES6", "DOM", "DOM.Iterable",
+        ],
+        "types": [
+            "vue3-toastify/global"
+        ]
+    }
+}
